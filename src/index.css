@@ -1,0 +1,205 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  
+  width: 100vh;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftMain{
+  padding: 30px;
+}
+
+.friendsList{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.friend{
+  border-radius: 5px;
+  background-color: rgb(240, 235, 228);
+  padding: 10px;
+  width: 18rem;
+  height:3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between ;
+
+  padding: 10px 25px;
+  
+}
+
+
+
+.difBackground{
+  background-color: rgb(223, 168, 150);
+
+}
+
+.friend img{
+  height: 48px;
+  border-radius: 50%;
+}
+
+.friend-details{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+
+}
+
+.friend-details h1{
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.friend-details p{
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.addFriend{
+
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(251, 247, 243);
+  padding: 20px;
+  padding-right: 15px;
+  border-radius: 5px;
+  
+}
+
+.addFriend button{
+  width: 11.5rem;
+}
+
+.funcButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 15px;
+}
+
+.funcButton button{
+  width: auto;
+}
+
+.friendName{
+  display: flex;
+  justify-content: space-between;
+}
+.friendName input{
+  width: 11rem;
+  height: 1.5rem;
+  border-radius: 5px;
+  border: 2px  rgb(232, 223, 220) solid ;
+}
+
+.add-Url{
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-Url input{
+  width: 11rem;
+  height: 1.5rem;
+  border-radius: 5px;
+  border: 2px  rgb(232, 223, 220) solid ;
+}
+
+.newMateButton{
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.billingArea{
+  background-color: beige;
+  width:22rem;
+  height: 15rem;
+  padding: 20px 40px 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+  border: 2px  rgb(232, 223, 220) solid ;
+}
+
+.billingArea h1{
+  font-size: 24px;
+}
+
+.billingArea div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttonCan{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end
+}
+
+.buttonCan button{
+
+  width: 7.5rem
+}
+
+.billingArea input{
+
+  height: 1.5rem;
+  width: 7rem;
+  border-radius: 5px;
+  border: 2px  rgb(232, 223, 220) solid ;
+}
+
+.billingArea select{
+  padding: 0;
+  margin: 0;
+  height: 1.8rem;
+  width: 7.5rem;
+  border-radius: 5px;
+  border: 2px  rgb(232, 223, 220) solid ;
+
+}
+
+.billingArea h1{
+  margin: 0;
+}
+
+button{
+  height: 2rem;
+  width: 4rem;
+  font-weight: 800;
+  border-radius: 5px;
+  background-color: rgb(216, 142, 89);
+
+}
+
