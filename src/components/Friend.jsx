@@ -9,7 +9,7 @@ export default function Friend({friends, execute, friendx, choosePerson}){
           
         </div>
       <button onClick={friends.length>1 ? (()=>choosePerson(friendx.id)): (choosePerson(friendx.id))}>Select</button>
-  
+      
       </li>
     )
   

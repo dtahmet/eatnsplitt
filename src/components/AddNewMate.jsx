@@ -29,7 +29,7 @@ export default function AddNewMate({grabAPerson}){
         </div>
         <div className="add-Url">
           <label for="Iurl"><span>🖼️</span>Image URL</label>
-          <input type="url" id="Iurl" name="Iurl" ref={friendsImage}></input>
+          <input placeholder= "https://i.pravatar.cc/50"type="url" id="Iurl" name="Iurl" ref={friendsImage}></input>
         </div>
         <div className="newMateButton">
           <button onClick={addFriend}>Add</button>
